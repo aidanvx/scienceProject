@@ -189,7 +189,7 @@ function doPointsConflict(proposedPoint, existingPoint) {
         (proposedPoint[0] >= existingPoint[0]-20 && proposedPoint[0] <= existingPoint[0]+20) &&
         (proposedPoint[1] >= existingPoint[1]-20 && proposedPoint[1] <= existingPoint[1]+20)
     ) {
-        alert ("a conflict was found between the proposed point " + proposedPoint[0] + ", " + proposedPoint[1] + " and existing point " + existingPoint[0] + ", " + existingPoint[1]);
+        // alert ("a conflict was found between the proposed point " + proposedPoint[0] + ", " + proposedPoint[1] + " and existing point " + existingPoint[0] + ", " + existingPoint[1]);
         return true;
     }
     else return false;
