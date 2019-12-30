@@ -8,8 +8,9 @@
     <title>Aidan's Science Project</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Firebase Reference -->
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
 </head>
 
 <body>
@@ -26,7 +27,7 @@
             </div>
         </div>
     </div>
-    <div class="gameBox">
+    <div id="gameBox">
         <div id="openingSplash">
             <div id="startButton">
                 <p>Click here to start...</p>
@@ -41,7 +42,11 @@
         </div>
         <div id="responseSplash">
             <div id="trialCompleteDisplay">
-                    I am the olive dialog display div
+                    <!-- I am the olive dialog display div -->
+                <p></p>
+            </div>
+            <div id="allTrialsCompleteDisplay">
+                    <!-- I am the olive dialog display div -->
                 <p></p>
             </div>
         </div>
