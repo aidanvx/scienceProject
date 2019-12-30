@@ -1,0 +1,144 @@
+body {
+    text-align: center;
+    background-color: lightgray;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+    color: black;
+    margin: 25px;
+}
+
+.headerSection {
+    height: 70px;
+    display: block;
+    position: relative;
+    text-align: center;
+    color: ghostwhite;
+}
+.headerArea {
+    width: 600px;
+    height: 70px;
+    /* background-color: green; */
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    color:black;
+}
+
+#scoreDisplay {
+    /* background-color: yellowgreen; */
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    margin: 0;
+    font-size: 2em; 
+}
+
+#timerClock {
+    /* background-color: yellowgreen; */
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    margin: 0;
+    font-size: 2em; 
+}
+
+.gameBox {
+    width: 600px;
+    height: 400px;
+    background-color: red;
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    color: ghostwhite;
+}
+
+
+
+#circleField {
+    /* background-color: lavender; */
+    display: inline-block;
+    position: absolute;
+    width: 600px;
+    height: 400px;
+}
+
+.circle {
+    height: 20px;
+    width:20px;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+}
+
+#openingSplash {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    /* background-color: red; */
+}
+#startButton {
+    position: absolute;
+    display: inline-block;
+    top: 180px;
+    left: 180px;
+    font-size: 2.2em; 
+    color: black;
+    background-color:white;
+    cursor: pointer;
+}
+
+#runningGameBox {
+    position: relative;
+    display: none;
+    width: 600px;
+    height: 400px;
+}
+
+#responseSplash {
+    display: none;
+    position: relative;
+    width: 600px;
+    height: 400px;
+    /* background-color: red; */
+}
+#trialCompleteDisplay {
+    background-color: olive;
+    position: absolute;
+    display: inline-block;
+    top: 180px;
+    left: 50px;
+    font-size: 2.2em; 
+}
+
+.footerSection {
+    height: 100px;
+    display: block;
+    position: relative;
+    text-align: center;
+    color: ghostwhite;
+}
+.footerArea {
+    width: 600px;
+    height: 100px;
+    /* background-color: green; */
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    color:black;
+}
+
+#gameInstructions {
+    /* background-color: yellowgreen; */
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    left:10px;
+    margin: 0;
+    font-size: 1.5em; 
+}
