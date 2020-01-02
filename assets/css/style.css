@@ -50,19 +50,11 @@ h1 {
 #gameBox {
     width: 600px;
     height: 400px;
-    /* this color is just a default. It can be changed by the javascript */
     background-color: white;
     display: inline-block;
     position: relative;
     text-align: left;
     color: black;
-}
-
-#runningGameBox {
-    position: relative;
-    display: none;
-    width: 600px;
-    height: 400px;
 }
 
 
@@ -96,8 +88,15 @@ h1 {
     left: 180px;
     font-size: 2.2em; 
     color: black;
-    /* background-color:white; */
+    background-color:white;
     cursor: pointer;
+}
+
+#runningGameBox {
+    position: relative;
+    display: none;
+    width: 600px;
+    height: 400px;
 }
 
 #responseSplash {
@@ -108,7 +107,6 @@ h1 {
     /* background-color: red; */
 }
 #trialCompleteDisplay {
-    /* background-color: olive; */
     position: absolute;
     display: inline-block;
     top: 180px;
@@ -117,7 +115,6 @@ h1 {
 }
 
 #allTrialsCompleteDisplay {
-    /* background-color: olive; */
     position: absolute;
     display: inline-block;
     top: 180px;
