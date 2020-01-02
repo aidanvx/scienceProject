@@ -4,8 +4,8 @@ body {
 }
 
 h1 {
-    font-family: 'Lobster', cursive;
-    font-size: 3em;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 5em;
     color: black;
     margin: 25px;
 }
@@ -84,8 +84,8 @@ h1 {
 #startButton {
     position: absolute;
     display: inline-block;
-    top: 180px;
-    left: 180px;
+    top: 130px;
+    left: 40px;
     font-size: 2.2em; 
     color: black;
     background-color:white;
